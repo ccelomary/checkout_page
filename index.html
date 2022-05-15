@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./img/devchallenges.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <title>Checkout</title>
+  </head>
+  <body>
+    <div class="content">
+      <h1 class="header">Checkout</h1>
+      <div class="checkout-content">
+        <div class="checkout-user-info">
+          <h2 class="user-info-title">Contact Information</h2>
+          <div class="form-control">
+            <label>E-mail</label>
+            <div class="input-form">
+              <span class=" icons material-symbols-rounded">
+                mail
+                </span>
+                <input type="text" placeholder="Enter your email..." />
+            </div>
+          </div>
+          <div class="form-control">
+            <label>Phone</label>
+            <div class="input-form">
+              <span class="icons material-symbols-rounded">
+                call
+                </span>
+                <input type="text" placeholder="Enter your phone..." />
+            </div>
+          </div>
+          <h2 class="user-info-title">Shipping Address</h2>
+          <div class="form-control">
+            <label>Full name</label>
+            <div class="input-form">
+              <span class="icons material-symbols-rounded">
+                account_circle
+                </span>
+                <input type="text" placeholder="Full name.." />
+            </div>  
+          </div>
+          <div class="form-control">
+            <label>Address</label>
+            <div class="input-form">
+              <span class="icons material-symbols-rounded">
+                home
+              </span>
+                <input type="text" placeholder="Your address.." />
+            </div>  
+          </div>
+          <div class="form-control">
+            <label>City</label>
+            <div class="input-form">
+              <span class="icons material-symbols-rounded">
+                location_city
+                </span>
+                <input type="text" placeholder="Your City.." />
+            </div>  
+          </div>
+          <div class="horizontal-form">
+            <div class="form-control">
+              <label>Country</label>
+              <div class="input-form-select">
+                <span class="icons material-symbols-rounded">
+                  public
+                  </span>
+                  <select name="country" required>
+                    <option value="" disabled selected hidden>Your country..</option>
+                    <option value="hurr">Finland</option>
+                </select>
+                <div class="select-arrow-down">
+                  <span class="material-symbols-rounded">
+                    expand_more
+                    </span>
+                </div>
+              </div>  
+            </div>
+            <div class="form-control">
+              <label>Postal code</label>
+              <div class="input-form">
+                <span class="icons material-symbols-rounded">
+                  markunread_mailbox
+                  </span>
+                  <input type="text" placeholder="Your Postal code..." />
+              </div>
+            </div>
+          </div>
+          <div class="form-control-checkbox">
+            <div class="checkbox-container">
+              <input type="checkbox" />
+              <span class="checkmark"></span>
+            </div>
+            <label>Save this inofrmation for next time</label>
+          </div>
+          <button class="form-button">Continue</button>
+        </div>
+
+        <div class="checkout-item-info">
+            <div class="item-card">
+              <div class="item-image">
+                  <img src="./img/photo1.png" alt='item image' />
+              </div>
+              <div class="item-details">
+                <h2 class="item-title">Vintage Backbag</h2>
+                <div class="item-price">
+                  <p class="current-price">$54.99</p>
+                  <p class="old-price">$94.99</p>
+                </div>
+                <div class="item-quantity">
+                  <div class="button-quantity">
+                    <span class="material-symbols-rounded">
+                      remove
+                      </span>
+                  </div>
+                  <div class="current-value">
+                      1
+                  </div>
+                  <div class="button-quantity">
+                    <span class="material-symbols-rounded">
+                      add
+                      </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item-card">
+              <div class="item-image">
+                  <img src="./img/photo2.png" alt='item image' />
+              </div>
+              <div class="item-details">
+                <h2 div class="item-title">Levi Shoes</h2>
+                <div class="item-price">
+                  <p class="current-price">$74.99</p>
+                  <p class="old-price">$124.99</p>
+                </div>
+                <div class="item-quantity">
+                  <div class="button-quantity">
+                    <span class="material-symbols-rounded">
+                      remove
+                      </span>
+                  </div>
+                  <div class="current-value">
+                      1
+                  </div>
+                  <div class="button-quantity">
+                    <span class="material-symbols-rounded">
+                      add
+                      </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="delivery-price">
+              <h2>Shipping</h2>
+              <p>$19</p>
+            </div>
+            <div class="total">
+              <h2>Total</h2>
+              <p>$148.98</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>created by <a href="https://github.com/celomary" target='_blank' >Celomary</a> - devchallenges.io</p>
+    </footer>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
